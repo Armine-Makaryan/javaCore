@@ -1,10 +1,6 @@
 public class ForExample {
     public static void main(String[] args) {
-        int i;
-        for( i = 0; i < 10; i = i + 1){
-            System.out.print("Hello");
-            System.out.println(i);
-        }
-
+        for(int x = 0; x < 10; x = x + 1)
+            System.out.println(x);
     }
 }
